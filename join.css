@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    font-family: 'kumbh sans' sans-serif;
+    font-size: 1.2em;
+
+}
+
+    
+
+.div2{
+    height: 500px;
+    background: 30% 100% url("annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
+                  /*this is my main div*/
+    align-items: center;
+    text-align: center;
+
+}
+#span1{
+    margin-top: 0px;
+    
+    font-family: cursive;     /*tis is the first header*/
+    font-size: 1.6em;
+    color: #f89104;
+    
+}
+#par1{
+    
+    width: 800px;
+    height: 200px;
+    color: cadetblue;/*this maight be changed*/
+    font-size: 1.2em;
+    font-family: monospace;
+    margin-left: 400px;
+
+}
+.div3{
+    height: 600px;
+    background-color: black; /* there might be a color change*/
+    
+    align-items: center;
+    width: 100%;
+}
+#span2{
+    margin-top: 0px;
+    margin-left: 400px;
+    font-family: cursive;
+    font-size: 1.6em;
+    color: steelblue;
+    text-align: center;
+
+}
+#images{
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mag{
+    height: 300px;
+    margin-top: 0px;
+    width: 400px;
+    font-size: 0.9em;
+    font-family:monospace;
+    color: white;     /*the color of the text*/
+    margin-right: 70px;
+    text-align: center;
+
+}
+
+#kiki{
+    border-radius: 30%;
+    width: 350px;
+    height: 250px;      /*styling of individual images*/
+
+}
+#hi{
+    text-align: center;
+    color: #f89104;
+    width: 400px;
+    height: 100px;
+    font-size: 0.9em;
+
+}
+#par2{
+    color: rgb(20, 97, 27);
+    font-size: 2em;
+    font-family: cursive;
+    margin-top: 0px;
+}
+.div4{
+    margin-top: 0px;
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: 30% 100% url("david-jorre-oQbLeq4nOek-unsplash.jpg");
+    height: 500px;
+}
+#haha{
+    text-align: center;
+    color:rgb(20, 97, 27) ;
+    width: 400px;
+    height: 100px;
+    font-size: 0.9em;
+    font-family: monospace;
+
+
+
+}
+.head{
+    color: steelblue;
+    font-family: monospace;
+    margin-left: 60px;
+    margin-top: 100px;
+    
+
+}
+
+#cop{
+    border-radius: 20%;
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+}
+.footer{
+    margin-top: 100px;
+    height: 40px;
+    background-color: #f89104;
+    color: steelblue;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+h5{
+    margin
+}
+#kiki:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}

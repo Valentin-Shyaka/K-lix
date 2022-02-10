@@ -1,0 +1,125 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+
+}.listening{
+    background-color: rgb(34, 32, 32);
+    height: 500px;
+    color: white;
+    top: 0px;
+
+}
+#photo{
+    float: right;
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+}
+#img{
+    width: 400px;
+    height: 400px;
+}
+.offtext{
+    margin-left: 100px;
+    
+    width: 500px;
+    height: 400px;
+}
+#h2{
+    margin-left: 100px;
+    margin-top: 100px;
+    
+    color: white;
+    font-size: 2em;
+    
+}
+.playlist{
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+#list{
+    float: right;
+    
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    margin-right: 100px;
+
+}
+#kolo{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#messi{
+    float: left;
+    margin-top:  100px;
+    color: white;
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+#create{
+    font-size: 2.4em;
+    font-family:cursive;
+    color: #f89104;
+    margin-top: 0px;
+}
+
+#part1{
+    margin-top: 70px;
+    margin-left: 200px;
+    font-size: 1.4em;
+    font-family: cursive;
+    width: 500px;
+    height: 300px;
+
+}
+.place{background-color:steelblue;
+    height: 500px;
+    color:#f89104;
+    display: center;
+    align-items: center;
+    float: center;
+
+}
+.koh{
+    width: 500px;
+    height: 300px;
+
+}
+#fuck{
+    width: 500px;
+    height: 300px;
+    margin-left: 490px;
+    margin-top: 70px;
+}
+.where{
+    float: center;
+    margin-left: 500px;
+
+}
+
+#koko{
+    font-family: cursive;
+
+}
+#hehe{
+    font-family: cursive;
+    margin-left: 100px;
+
+}
+#lanta{
+    margin-top: 20px;
+    margin-left: -40px;
+    font-family: monospace;
+    font-size: 1.4em;
+    color: white;
+}

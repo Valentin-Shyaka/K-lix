@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to k-lix</title>
+    <link rel="stylesheet" href="k-lix.css">
+    <script src="https://kit.fontawesome.com/926f0cf1e4.js" crossorigin="anonymous"></script>
+    <script src="k-lix.js"></script>
+    
+</head>
+</head>
+<body>
+        
+            <nav id="navbar">
+              
+                <div class="logosearch">
+                  <img src="logo3.png" alt="logo" id="logo">
+                  <h3 id="title">K-LIX</h3>
+                  <div class="search"><input type="text" placeholder="search" id="search"><i class="fas fa-search"></i></div>
+                </div>
+                <div class="navbar-tooggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <div class="navbar-content"></div>
+                </div>
+                <div id="navbarlinks">
+                    <a href="#" id="home"><i class="fas fa-home"></i> Home</a><!--<input type="button" value="Home" id="home" onclick="document.location='#'">-->
+                     <a href="#intro" id="home"><i class="far fa-question-circle"></i>About</a><!--<input type="button" value="About us" id="home"  onclick="document.location='#intro'"> !-->
+                    <a href="#folow" id="home"><i class="fas fa-mobile-alt"></i>Contact us</a><!--<input type="button" value="Contact us" id="home"  onclick="document.location='#folow'">-->
+                    <input type="button" value="Sign Up" id="home1"  onclick="document.location='#subs'">
+                </div>
+              </div>
+            </nav>
+      <div class="homepg" id="homepg">    
+            <span id="hometxt">
+                <h2 id="id">Bring <br> Music to life</h2>
+                <p id="haha1">Let guitar flex flow in your heart and enrich your soul</p>
+                <input type="button" id="hbutt" value="Learn more" onclick="document.location='learnmorepg.html'">
+            </span>
+
+        </div>
+        <div class="pup"></div>
+        <div class="intro" id="intro">
+            <h2 id="id2">INTRODUCING <br>K-LIX</h2>
+            <p id="par">K-lix is one of the leading and best guitarist platforms. It is a hub for new 
+               and amazing skills about music in reference to guitar, you can get trending news and learn to play
+            guitar on K-LIX</p>
+                
+                <input type="button" value="Join our community" id="join"  ondblclick="askjoin()" onclick="document.location='joincommunity.html'">
+
+        </div>
+
+        <div class="follow" id="folow">
+            <span id="img"><img src="dodo.png" alt="follow"></span>
+            <span id="kally">
+            <h2 id="follows">FOLLOW <br> OUR ARTISTS</h2>
+            <p id="par2">A sentence or two describing this item. Lorem ipsum dolor sit amet, 
+                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                <input type="button" value="Sign Up" id="sign" onclick="document.location='login.html'"></span>
+               
+        </div>
+        <div class="discover">
+            <div id="tbg">
+                <h2 id="trend">DISCOVER TRENDS</h2>
+                
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <h4 class="head">New Methods</h4>
+                    <img src="alamy.png" alt="London" id="down" onmouseenter="src='sisi.png'" onmouseleave="src='alamy.png'">
+                      <p id="haha">Lorem ipsum dolor sit amet, 
+                       consectetur adipisicing elit. Quae, 
+                       nemo.</p></div>
+                    <div class="col span-1-of-3">
+                    <h4 class="head">New Widgets</h4>
+                    <img src="capo.png" alt="San Fransisco" id="down" onmouseenter="src='koko.png'" onmouseleave="src='capo.png'">
+                    <p id="haha">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Quae, 
+                        nemo.</p></div>
+                    <div class="col span-1-of-3">
+                    <h4 class="head">LEGENDS</h4>
+                    <img src="may.png" alt="Copenhague" id="down" onmouseenter="src='bobo.png'" onmouseleave="src='may.png'">
+                    <p id="haha">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Quae, 
+                        nemo.</p></div>
+                       
+
+            </div>
+            
+
+        </div>
+        
+        <div class="subs" id="subs">
+            <h2 id="news">SUBSCRIBE TO OUR NEWS LETTER</h2>
+            <p id="soon">We'll get touch with you soon</p>
+            <span id="subsbutt">
+                <input type="text" placeholder="NAME" id="kl" onfocus="this.style.backgroundColor='#f89104'" onblur="this.style.backgroundColor='#312f2f'">
+                <input type="text" placeholder="EMAIL" id="kl" onfocus="this.style.backgroundColor='#f89104'" onblur="this.style.backgroundColor='#312f2f'" >
+                <input type="Button" value="SUBMIT" id="mit" onclick="greetuser()">
+            </span>
+            
+        
+        <div class="footer">
+            <span id="about">
+                <h3><u>About us</u></h3><br>
+                <p>Our mission <br>We're hiring</p>
+            </span>
+            <span id="about">
+                <h3><u>Resources</u></h3><br>
+                <p>Tutorials<br>Brand assets</p>
+            </span>
+            <span id="about">
+                <h3><u>Contact us</u></h3><br>
+                <p>321-555-5555
+                    <br>
+
+                    info@company.com</p>
+            </span>
+
+        </div>
+    
+
+    
+</body>
+</html>
